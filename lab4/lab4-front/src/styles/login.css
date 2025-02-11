@@ -1,0 +1,64 @@
+
+.text-section {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    margin-left: 20%;
+    margin-bottom: 10%;
+}
+
+.text-section h2 {
+    font-size: 40px;
+    font-family: "Brush Script MT", cursive;
+    text-align: center;
+}
+
+.text-section input {
+    width: 100%;
+    max-width: 300px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+.text-section input:focus {
+    border-color: #007bff;
+}
+
+.sign-in-button {
+    background: black;
+    color: white;
+    width: 111%;
+    max-width: 300px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+
+    &:hover {
+        background: gray;
+    }
+}
+
+.text-section h5 {
+    color: grey;
+    text-decoration: underline;
+    font-size: 10px;
+}
+.signup-link {
+    color: #007bff; /* Синий цвет */
+    text-decoration: none; /* Убираем подчеркивание */
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.signup-link:hover {
+    text-decoration: underline; /* Подчеркивание при наведении */
+    color: #0056b3; /* Более темный синий при наведении */
+}
